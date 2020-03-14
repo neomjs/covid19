@@ -14,11 +14,12 @@ You can configure and sort the gallery with the controls on the right side, resu
 This is a perfect performance demo for the webworkers driven UI framework <a href="https://github.com/neomjs/neo">neo.mjs</a>.
 
 ## Content
-1.  <a href="#online-versions">Online Versions</a>
-2.  <a href="#preview-image">Preview Image</a>
-3.  <a href="#getting-started">Getting Started</a>
+1. <a href="#online-versions">Online Versions</a>
+2. <a href="#preview-image">Preview Image</a>
+3. <a href="#getting-started">Getting Started</a>
 4. <a href="#docs-app">Docs App</a>
-5.  <a href="#attribution">Attribution</a>
+5. <a href="#multithreading">Multithreading</a>
+6. <a href="#attribution">Attribution</a>
 
 ## Online Versions
 You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a> (COVID-19 Gallery).
@@ -55,6 +56,13 @@ we do get documentation views for our app source code out of the box:
 
 <img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_docs.png">
    
+## Multithreading
+In case you want to take a closer look at the workers setup, take a look into the Chrome dev tools Sources:
+
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_workers.png">
+
+Your app code will get loaded into the App thread.
+
 ## Attribution
 1. This App is created using the <a href="https://github.com/neomjs/neo">neo.mjs</a> UI framework.
 2. Data provided by <a href="https://github.com/NovelCOVID/API">NovelCOVID/API</a>.
