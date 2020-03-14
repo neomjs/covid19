@@ -51,6 +51,7 @@ You can find the Online Versions <a href="https://neomjs.github.io/pages/">here 
 3. <a href="https://cors-anywhere.herokuapp.com/">https://cors-anywhere.herokuapp.com/</a> is used to access the API via Javascript.
 4. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
 
+<br><br>
 Build with :heart: in Germany.
 
 <br><br>
