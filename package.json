@@ -1,6 +1,7 @@
 {
     "name": "covid19-gallery",
-    "version": "1.0.4",
+    "version": "1.0.5",
+    "description": "3d Gallery App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
         "build-all": "node ./node_modules/neo.mjs/buildScripts/buildAll.js",
