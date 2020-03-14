@@ -17,7 +17,8 @@ This is a perfect performance demo for the webworkers driven UI framework <a hre
 1.  <a href="#online-versions">Online Versions</a>
 2.  <a href="#preview-image">Preview Image</a>
 3.  <a href="#getting-started">Getting Started</a>
-4.  <a href="#attribution">Attribution</a>
+4. <a href="#docs-app">Docs App</a>
+5.  <a href="#attribution">Attribution</a>
 
 ## Online Versions
 You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a> (COVID-19 Gallery).
@@ -44,6 +45,15 @@ You can find the Online Versions <a href="https://neomjs.github.io/pages/">here 
 4. Make sure to use a local WebServer!
    * Use a local webserver of your choice
    * OR `npm run server-start`
+
+## Docs App
+Since this app shell was created using:
+> npx neo-app
+
+we do get documentation views for our app source code out of the box:
+> localhost/covid19/docs/index.html
+
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_docs.png">
    
 ## Attribution
 1. This App is created using the <a href="https://github.com/neomjs/neo">neo.mjs</a> UI framework.
