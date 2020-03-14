@@ -61,6 +61,10 @@ we do get documentation views for our app source code out of the box:
 3. <a href="https://cors-anywhere.herokuapp.com/">https://cors-anywhere.herokuapp.com/</a> is used to access the API via Javascript.
 4. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
 
+### Join our Slack Channel for questions & feedback:
+
+<a href="https://join.slack.com/t/neotericjs/shared_invite/enQtNDk2NjEwMTIxODQ2LWRjNGQ3ZTMzODRmZGM2NDM2NzZmZTMzZmE2YjEwNDM4NDhjZDllNWY2ZDkwOWQ5N2JmZWViYjYzZTg5YjdiMDc">Slack Channel Invite Link</a>
+
 <br><br>
 Build with :heart: in Germany.
 
