@@ -1,7 +1,6 @@
 {
-    "name": "covid19",
-    "version": "0.1.0",
-    "private": true,
+    "name": "covid19-gallery",
+    "version": "1.0.0",
     "scripts": {
         "server-start": "webpack-dev-server --open",
         "generate-docs-json": "node ./node_modules/neo.mjs/buildScripts/docs/jsdocx.js",
