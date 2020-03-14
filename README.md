@@ -6,14 +6,35 @@
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-green.svg" alt="PRs Welcome"></a>
 </p>
 
-#neo.mjs covid19
+# neo.mjs covid19
 
 ## Content
 1.  <a href="#online-versions">Online Versions</a>
 2.  <a href="#preview-image">Preview Image</a>
+3.  <a href="#getting-started">Getting Started</a>
 
 ## Online Versions
 You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a>.
 
 ## Preview Image
 <img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_gallery.png">
+
+## Getting Started
+1. Clone this repo to your system to get the project files
+   ```sh
+   git clone https://github.com/neomjs/covid19.git
+   ```
+
+2. Open the checked out top level folder inside your terminal
+   ```sh
+   cd covid19
+   ```
+
+3. Install the required node modules & run all relevant build scripts at once
+   ```sh
+   npm run build-all
+   ```
+
+4. Make sure to use a local WebServer!
+   * Use a local webserver of your choice
+   * OR `npm run server-start`
