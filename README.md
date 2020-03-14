@@ -7,11 +7,17 @@
 </p>
 
 # neo.mjs covid19
+A multi-threaded Gallery showing countries affected by COVID 19.
+
+You can configure and sort the gallery with the controls on the right side, resulting in a firework of CSS3 transitions.
+
+This is a perfect performance demo for the webworkers driven UI framework <a href="https://github.com/neomjs/neo">neo.mjs</a>.
 
 ## Content
 1.  <a href="#online-versions">Online Versions</a>
 2.  <a href="#preview-image">Preview Image</a>
 3.  <a href="#getting-started">Getting Started</a>
+4.  <a href="#attribution">Attribution</a>
 
 ## Online Versions
 You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a>.
@@ -38,3 +44,14 @@ You can find the Online Versions <a href="https://neomjs.github.io/pages/">here 
 4. Make sure to use a local WebServer!
    * Use a local webserver of your choice
    * OR `npm run server-start`
+   
+## Attribution
+1. This App is created using the <a href="https://github.com/neomjs/neo">neo.mjs</a> UI framework.
+2. Data provided by <a href="https://github.com/NovelCOVID/API">NovelCOVID/API</a>.
+3. <a href="https://cors-anywhere.herokuapp.com/">https://cors-anywhere.herokuapp.com/</a> is used to access the API via Javascript.
+4. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
+
+Build with :heart: in Germany.
+
+<br><br>
+Copyright (c) 2020 - today, <a href="https://www.linkedin.com/in/tobiasuhlig/">Tobias Uhlig</a>
