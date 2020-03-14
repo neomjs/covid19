@@ -78644,7 +78644,7 @@
         "meta": {
             "range": [
                 5141,
-                7373
+                7575
             ],
             "filename": "CountryGallery.mjs",
             "lineno": 150,
@@ -78696,15 +78696,15 @@
         "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {String} itemId\n     */",
         "meta": {
             "range": [
-                7465,
-                7530
+                7667,
+                7732
             ],
             "filename": "CountryGallery.mjs",
-            "lineno": 223,
+            "lineno": 229,
             "columnno": 4,
             "path": "/Users/Shared/github/covid19/apps/covid19/view",
             "code": {
-                "id": "astnode100070675",
+                "id": "astnode100070689",
                 "name": "CountryGallery#getItemId",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -78749,15 +78749,15 @@
         "comment": "/**\n     *\n     * @param {Array} items\n     */",
         "meta": {
             "range": [
-                7587,
-                7810
+                7789,
+                8012
             ],
             "filename": "CountryGallery.mjs",
-            "lineno": 231,
+            "lineno": 237,
             "columnno": 4,
             "path": "/Users/Shared/github/covid19/apps/covid19/view",
             "code": {
-                "id": "astnode100070688",
+                "id": "astnode100070702",
                 "name": "CountryGallery#onStoreLoad",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -78889,15 +78889,15 @@
         "comment": "/**\n     *\n     * @param {Object} config\n     */",
         "meta": {
             "range": [
-                10282,
-                10892
+                10828,
+                11438
             ],
             "filename": "MainContainer.mjs",
-            "lineno": 269,
+            "lineno": 283,
             "columnno": 4,
             "path": "/Users/Shared/github/covid19/apps/covid19/view",
             "code": {
-                "id": "astnode100071409",
+                "id": "astnode100071474",
                 "name": "MainContainer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -78931,15 +78931,15 @@
         "comment": "/**\n     *\n     * @returns {Neo.data.Store}\n     */",
         "meta": {
             "range": [
-                11160,
-                11223
+                11706,
+                11769
             ],
             "filename": "MainContainer.mjs",
-            "lineno": 304,
+            "lineno": 318,
             "columnno": 4,
             "path": "/Users/Shared/github/covid19/apps/covid19/view",
             "code": {
-                "id": "astnode100071536",
+                "id": "astnode100071601",
                 "name": "MainContainer#getStore",
                 "type": "MethodDefinition",
                 "paramnames": []
