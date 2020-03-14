@@ -4,6 +4,6 @@ Neo.onStart = function() {
     Neo.app({
         appPath : 'apps/covid19/',
         mainView: MainContainer,
-        name    : 'covid19'
+        name    : 'Covid19'
     });
 };

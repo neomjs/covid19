@@ -3,12 +3,12 @@ import {default as TabContainer} from '../../../node_modules/neo.mjs/src/tab/Con
 import Viewport                  from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
 /**
- * @class covid19.view.MainContainer
+ * @class Covid19.view.MainContainer
  * @extends Neo.container.Viewport
  */
 class MainContainer extends Viewport {
     static getConfig() {return {
-        className: 'covid19.view.MainContainer',
+        className: 'Covid19.view.MainContainer',
         ntype    : 'main-container',
 
         autoMount: true,
