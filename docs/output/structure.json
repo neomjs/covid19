@@ -243,6 +243,17 @@
     {
         "className": null,
         "collapsed": false,
+        "id": 183,
+        "isLeaf": false,
+        "name": "model",
+        "path": "",
+        "parentId": 182,
+        "singleton": false,
+        "srcPath": null
+    },
+    {
+        "className": null,
+        "collapsed": false,
         "id": 111,
         "isLeaf": false,
         "name": "selection",
@@ -259,6 +270,17 @@
         "path": "",
         "parentId": null,
         "singleton": false
+    },
+    {
+        "className": null,
+        "collapsed": false,
+        "id": 185,
+        "isLeaf": false,
+        "name": "store",
+        "path": "",
+        "parentId": 182,
+        "singleton": false,
+        "srcPath": null
     },
     {
         "className": null,
@@ -351,7 +373,7 @@
     {
         "className": null,
         "collapsed": false,
-        "id": 183,
+        "id": 187,
         "isLeaf": false,
         "name": "view",
         "path": "",
@@ -820,6 +842,39 @@
         "parentId": 63,
         "singleton": false,
         "srcPath": "node_modules/neo.mjs/src/form/field/trigger/CopyToClipboard.mjs"
+    },
+    {
+        "className": "covid19.store.Countries",
+        "collapsed": false,
+        "id": 186,
+        "isLeaf": true,
+        "name": "Countries",
+        "path": ".store",
+        "parentId": 185,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid19/apps/covid19/store/Countries.mjs"
+    },
+    {
+        "className": "covid19.model.Country",
+        "collapsed": false,
+        "id": 184,
+        "isLeaf": true,
+        "name": "Country",
+        "path": ".model",
+        "parentId": 183,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid19/apps/covid19/model/Country.mjs"
+    },
+    {
+        "className": "covid19.view.CountryGallery",
+        "collapsed": false,
+        "id": 188,
+        "isLeaf": true,
+        "name": "CountryGallery",
+        "path": ".view",
+        "parentId": 187,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid19/apps/covid19/view/CountryGallery.mjs"
     },
     {
         "className": "Neo.util.Css",
@@ -1363,11 +1418,11 @@
     {
         "className": "covid19.view.MainContainer",
         "collapsed": false,
-        "id": 184,
+        "id": 189,
         "isLeaf": true,
         "name": "MainContainer",
         "path": ".view",
-        "parentId": 183,
+        "parentId": 187,
         "singleton": false,
         "srcPath": "/Shared/github/covid19/apps/covid19/view/MainContainer.mjs"
     },

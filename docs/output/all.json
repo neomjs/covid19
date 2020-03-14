@@ -78279,10 +78279,494 @@
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
-        "comment": "/**\n * @class covid19.view.MainContainer\n * @extends Neo.container.Viewport\n */",
+        "comment": "/**\n * @class Covid19.model.Country\n * @extends Neo.data.Model\n */",
+        "meta": {
+            "filename": "Country.mjs",
+            "lineno": 3,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid19/apps/covid19/model",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "Country",
+        "augments": [
+            "Neo.data.Model"
+        ],
+        "memberof": "Covid19.model",
+        "longname": "Covid19.model.Country",
+        "scope": "static",
+        "$longname": "Covid19.model.Country",
+        "$kind": "class",
+        "id": 2131,
+        "neoClassName": "covid19.model.Country"
+    },
+    {
+        "comment": "/**\n * @class Covid19.store.Countries\n * @extends Neo.data.Store\n */",
+        "meta": {
+            "filename": "Countries.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid19/apps/covid19/store",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "Countries",
+        "augments": [
+            "Neo.data.Store"
+        ],
+        "memberof": "Covid19.store",
+        "longname": "Covid19.store.Countries",
+        "scope": "static",
+        "$longname": "Covid19.store.Countries",
+        "$kind": "class",
+        "id": 2132,
+        "neoClassName": "covid19.store.Countries"
+    },
+    {
+        "comment": "/**\n * @class Covid19.view.CountryGallery\n * @extends Neo.component.Gallery\n */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "CountryGallery",
+        "augments": [
+            "Neo.component.Gallery"
+        ],
+        "memberof": "Covid19.view",
+        "longname": "Covid19.view.CountryGallery",
+        "scope": "static",
+        "$longname": "Covid19.view.CountryGallery",
+        "$kind": "class",
+        "id": 2133,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid19.view.CountryGallery'\n         * @private\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 14,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid19.view.CountryGallery'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2134,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['neo-country-gallery', 'neo-gallery', 'page', 'view']\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['neo-country-gallery', 'neo-gallery', 'page', 'view']",
+        "description": "'neo-gallery', 'page', 'view']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2135,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * The image height of the gallery\n         * @member {Number} imageHeight=240\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "description": "The image height of the gallery",
+        "kind": "member",
+        "name": "imageHeight",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 240,
+        "longname": "imageHeight",
+        "scope": "global",
+        "$longname": "imageHeight",
+        "$kind": "property",
+        "id": 2136,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * The image width of the gallery\n         * @member {Number} imageWidth=320\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 28,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "description": "The image width of the gallery",
+        "kind": "member",
+        "name": "imageWidth",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 320,
+        "longname": "imageWidth",
+        "scope": "global",
+        "$longname": "imageWidth",
+        "$kind": "property",
+        "id": 2137,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * @member {Object} itemTpl_\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 32,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "itemTpl_",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "longname": "itemTpl_",
+        "scope": "global",
+        "$longname": "itemTpl_",
+        "$kind": "property",
+        "id": 2138,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * The unique record field containing the id.\n         * @member {String} keyProperty='id'\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 90,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "description": "The unique record field containing the id.",
+        "kind": "member",
+        "name": "keyProperty",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'id'",
+        "longname": "keyProperty",
+        "scope": "global",
+        "$longname": "keyProperty",
+        "$kind": "property",
+        "id": 2139,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * True to select the item inside the middle of the store items on mount\n         * @member {Boolean} selectOnMount=false\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 95,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "description": "True to select the item inside the middle of the store items on mount",
+        "kind": "member",
+        "name": "selectOnMount",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": false,
+        "longname": "selectOnMount",
+        "scope": "global",
+        "$longname": "selectOnMount",
+        "$kind": "property",
+        "id": 2140,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.data.Store} store=CountryStore\n         */",
+        "meta": {
+            "filename": "CountryGallery.mjs",
+            "lineno": 99,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "store",
+        "type": {
+            "names": [
+                "Neo.data.Store"
+            ]
+        },
+        "defaultvalue": "CountryStore",
+        "longname": "store",
+        "scope": "global",
+        "$longname": "store",
+        "$kind": "property",
+        "id": 2141,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n     * Override this method to get different item-markups\n     * @param {Object} vdomItem\n     * @param {Object} record\n     * @param {Number} index\n     * @returns {Object} vdomItem\n     */",
+        "meta": {
+            "range": [
+                3961,
+                4835
+            ],
+            "filename": "CountryGallery.mjs",
+            "lineno": 109,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {
+                "id": "astnode100070284",
+                "name": "CountryGallery#createItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "vdomItem",
+                    "record",
+                    "index"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Override this method to get different item-markups",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "vdomItem"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "record"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "index"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "vdomItem"
+            }
+        ],
+        "name": "createItem",
+        "longname": "CountryGallery#createItem",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#createItem",
+        "$kind": "method",
+        "id": 2142,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} name\n     * @return {String} url\n     */",
+        "meta": {
+            "range": [
+                4920,
+                6948
+            ],
+            "filename": "CountryGallery.mjs",
+            "lineno": 140,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {
+                "id": "astnode100070503",
+                "name": "CountryGallery#getCountryFlagUrl",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "url"
+            }
+        ],
+        "name": "getCountryFlagUrl",
+        "longname": "CountryGallery#getCountryFlagUrl",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#getCountryFlagUrl",
+        "$kind": "method",
+        "id": 2143,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {String} itemId\n     */",
+        "meta": {
+            "range": [
+                7040,
+                7105
+            ],
+            "filename": "CountryGallery.mjs",
+            "lineno": 207,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {
+                "id": "astnode100070651",
+                "name": "CountryGallery#getItemId",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "vnodeId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "vnodeId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "itemId"
+            }
+        ],
+        "name": "getItemId",
+        "longname": "CountryGallery#getItemId",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#getItemId",
+        "$kind": "method",
+        "id": 2144,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Array} items\n     */",
+        "meta": {
+            "range": [
+                7162,
+                7385
+            ],
+            "filename": "CountryGallery.mjs",
+            "lineno": 215,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {
+                "id": "astnode100070664",
+                "name": "CountryGallery#onStoreLoad",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "items"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "name": "items"
+            }
+        ],
+        "name": "onStoreLoad",
+        "longname": "CountryGallery#onStoreLoad",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#onStoreLoad",
+        "$kind": "method",
+        "id": 2145,
+        "neoClassName": "covid19.view.CountryGallery"
+    },
+    {
+        "comment": "/**\n * @class Covid19.view.MainContainer\n * @extends Neo.container.Viewport\n */",
         "meta": {
             "filename": "MainContainer.mjs",
-            "lineno": 5,
+            "lineno": 6,
             "columnno": 0,
             "path": "/Users/Shared/github/covid19/apps/covid19/view",
             "code": {}
@@ -78292,12 +78776,170 @@
         "augments": [
             "Neo.container.Viewport"
         ],
-        "memberof": "covid19.view",
-        "longname": "covid19.view.MainContainer",
+        "memberof": "Covid19.view",
+        "longname": "Covid19.view.MainContainer",
         "scope": "static",
-        "$longname": "covid19.view.MainContainer",
+        "$longname": "Covid19.view.MainContainer",
         "$kind": "class",
-        "id": 2131,
+        "id": 2146,
+        "neoClassName": "covid19.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['neo-gallery-maincontainer', 'neo-viewport']\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['neo-gallery-maincontainer', 'neo-viewport']",
+        "description": "'neo-viewport']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2147,
+        "neoClassName": "covid19.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.component.Gallery|null} gallery=null\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "gallery",
+        "type": {
+            "names": [
+                "Neo.component.Gallery",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "gallery",
+        "scope": "global",
+        "$longname": "gallery",
+        "$kind": "property",
+        "id": 2148,
+        "neoClassName": "covid19.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object|null} galleryConfig=null\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 27,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "galleryConfig",
+        "type": {
+            "names": [
+                "Object",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "galleryConfig",
+        "scope": "global",
+        "$longname": "galleryConfig",
+        "$kind": "property",
+        "id": 2149,
+        "neoClassName": "covid19.view.MainContainer"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                10282,
+                10892
+            ],
+            "filename": "MainContainer.mjs",
+            "lineno": 269,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {
+                "id": "astnode100071385",
+                "name": "MainContainer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "MainContainer",
+        "longname": "MainContainer",
+        "kind": "class",
+        "scope": "global",
+        "$longname": "MainContainer",
+        "$kind": "constructor",
+        "id": 2150,
+        "neoClassName": "covid19.view.MainContainer"
+    },
+    {
+        "comment": "/**\n     *\n     * @returns {Neo.data.Store}\n     */",
+        "meta": {
+            "range": [
+                11160,
+                11223
+            ],
+            "filename": "MainContainer.mjs",
+            "lineno": 304,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid19/apps/covid19/view",
+            "code": {
+                "id": "astnode100071512",
+                "name": "MainContainer#getStore",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Neo.data.Store"
+                    ]
+                }
+            }
+        ],
+        "name": "getStore",
+        "longname": "MainContainer#getStore",
+        "kind": "function",
+        "memberof": "MainContainer",
+        "scope": "instance",
+        "params": [],
+        "$longname": "MainContainer#getStore",
+        "$kind": "method",
+        "id": 2151,
         "neoClassName": "covid19.view.MainContainer"
     }
 ]
