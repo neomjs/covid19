@@ -1,6 +1,6 @@
 {
     "name": "covid19-gallery",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "scripts": {
         "server-start": "webpack-dev-server --open",
         "build-all": "node ./node_modules/neo.mjs/buildScripts/buildAll.js",
@@ -22,7 +22,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "neo.mjs": "^1.0.39",
+        "neo.mjs": "^1.0.40",
         "sass": "^1.24.0"
     }
 }
