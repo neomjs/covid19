@@ -1,6 +1,6 @@
 {
     "name": "covid19-gallery",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "3d Gallery App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
@@ -22,8 +22,27 @@
         "prod-theme-light-no-css4": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/production/webpack.scss.config.js --env.json_file=theme.light.noCss4.json",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [
+        "javascript",
+        "frontend",
+        "framework",
+        "webworker",
+        "ecmascript",
+        "css",
+        "json"
+    ],
+    "author": "Tobias Uhlig",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/neomjs/covid19/issues"
+    },
+    "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
         "neo.mjs": "^1.0.41",
         "sass": "^1.24.0"
+    },
+    "funding": {
+        "type": "GitHub Sponsors",
+        "url": "https://github.com/sponsors/tobiu"
     }
 }
