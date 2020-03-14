@@ -1,0 +1,1378 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.list.Base\n * @extends Neo.component.Base\n */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 8,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Base",
+            "augments": [
+                "Neo.component.Base"
+            ],
+            "memberof": "Neo.list",
+            "longname": "Neo.list.Base",
+            "scope": "static",
+            "$longname": "Neo.list.Base",
+            "$kind": "class",
+            "id": 1198,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.list.Base'\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 18,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.list.Base'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1199,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='list'\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 23,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'list'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 1200,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * True will destroy the used collection / store when the component gets destroyed\n         * @member {Boolean} autoDestroyStore=true\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 28,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "description": "True will destroy the used collection / store when the component gets destroyed",
+            "kind": "member",
+            "name": "autoDestroyStore",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "autoDestroyStore",
+            "scope": "global",
+            "$longname": "autoDestroyStore",
+            "$kind": "property",
+            "id": 1201,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String[]} cls=['neo-list-container','neo-list']\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 32,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "cls",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['neo-list-container','neo-list']",
+            "longname": "cls",
+            "scope": "global",
+            "$longname": "cls",
+            "$kind": "property",
+            "id": 1202,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} disableSelection_=false\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 36,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "disableSelection_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "disableSelection_",
+            "scope": "global",
+            "$longname": "disableSelection_",
+            "$kind": "property",
+            "id": 1203,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String} displayField='name'\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 40,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "displayField",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'name'",
+            "longname": "displayField",
+            "scope": "global",
+            "$longname": "displayField",
+            "$kind": "property",
+            "id": 1204,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} highlightFilterValue=true\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 44,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "highlightFilterValue",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "highlightFilterValue",
+            "scope": "global",
+            "$longname": "highlightFilterValue",
+            "$kind": "property",
+            "id": 1205,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String} itemCls='neo-list-item'\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 48,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "itemCls",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'neo-list-item'",
+            "longname": "itemCls",
+            "scope": "global",
+            "$longname": "itemCls",
+            "$kind": "property",
+            "id": 1206,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * Additional used keys for the selection model\n         * @member {Object} keys\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 53,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "description": "Additional used keys for the selection model",
+            "kind": "member",
+            "name": "keys",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "keys",
+            "scope": "global",
+            "$longname": "keys",
+            "$kind": "property",
+            "id": 1207,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * Either pass a selection.Model module, an instance or a config object\n         * @member {Object|Neo.selection.Model} selectionModel_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 58,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "description": "Either pass a selection.Model module, an instance or a config object",
+            "kind": "member",
+            "name": "selectionModel_",
+            "type": {
+                "names": [
+                    "Object",
+                    "Neo.selection.Model"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "selectionModel_",
+            "scope": "global",
+            "$longname": "selectionModel_",
+            "$kind": "property",
+            "id": 1208,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Neo.data.Store|null} store_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 62,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "store_",
+            "type": {
+                "names": [
+                    "Neo.data.Store",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "store_",
+            "scope": "global",
+            "$longname": "store_",
+            "$kind": "property",
+            "id": 1209,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * True will add a checkbox in front of each list item\n         * @member {Boolean} stacked_=true\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 67,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "description": "True will add a checkbox in front of each list item",
+            "kind": "member",
+            "name": "stacked_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "stacked_",
+            "scope": "global",
+            "$longname": "stacked_",
+            "$kind": "property",
+            "id": 1210,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Object} _vdom={tag:'ul',cn:[]}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 71,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "_vdom",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{tag:'ul',cn:[]}",
+            "longname": "_vdom",
+            "scope": "global",
+            "$longname": "_vdom",
+            "$kind": "property",
+            "id": 1211,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} config\n     */",
+            "meta": {
+                "range": [
+                    2348,
+                    2605
+                ],
+                "filename": "Base.mjs",
+                "lineno": 81,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100034991",
+                    "name": "Base",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "name": "Base",
+            "longname": "Base",
+            "kind": "class",
+            "scope": "global",
+            "$longname": "Base",
+            "$kind": "constructor",
+            "id": 1212,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the disableSelection config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    2941,
+                    3126
+                ],
+                "filename": "Base.mjs",
+                "lineno": 110,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035055",
+                    "name": "Base#afterSetDisableSelection",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the disableSelection config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetDisableSelection",
+            "longname": "Base#afterSetDisableSelection",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetDisableSelection",
+            "$kind": "method",
+            "id": 1213,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the selectionModel config got changed\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3312,
+                    3432
+                ],
+                "filename": "Base.mjs",
+                "lineno": 124,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035083",
+                    "name": "Base#afterSetSelectionModel",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the selectionModel config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetSelectionModel",
+            "longname": "Base#afterSetSelectionModel",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetSelectionModel",
+            "$kind": "method",
+            "id": 1214,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the store config got changed\n     * @param {Neo.data.Store} value\n     * @param {Neo.data.Store} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3599,
+                    3929
+                ],
+                "filename": "Base.mjs",
+                "lineno": 136,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035100",
+                    "name": "Base#afterSetStore",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the store config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetStore",
+            "longname": "Base#afterSetStore",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetStore",
+            "$kind": "method",
+            "id": 1215,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered before the selectionModel config gets changed.\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @returns {Neo.selection.Model}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4156,
+                    4339
+                ],
+                "filename": "Base.mjs",
+                "lineno": 159,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035142",
+                    "name": "Base#beforeSetSelectionModel",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the selectionModel config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetSelectionModel",
+            "longname": "Base#beforeSetSelectionModel",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#beforeSetSelectionModel",
+            "$kind": "method",
+            "id": 1216,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered before the store config gets changed.\n     * @param {Object|Neo.data.Store} value\n     * @param {Object|Neo.data.Store} oldValue\n     * @returns {Neo.data.Store}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4556,
+                    4719
+                ],
+                "filename": "Base.mjs",
+                "lineno": 174,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035163",
+                    "name": "Base#beforeSetStore",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the store config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetStore",
+            "longname": "Base#beforeSetStore",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#beforeSetStore",
+            "$kind": "method",
+            "id": 1217,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the useCheckBoxes config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4880,
+                    5070
+                ],
+                "filename": "Base.mjs",
+                "lineno": 188,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035183",
+                    "name": "Base#afterSetUseCheckBoxes",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the useCheckBoxes config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetUseCheckBoxes",
+            "longname": "Base#afterSetUseCheckBoxes",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetUseCheckBoxes",
+            "$kind": "method",
+            "id": 1218,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Override this method for custom list items\n     * @param {Object} record\n     */",
+            "meta": {
+                "range": [
+                    5172,
+                    5456
+                ],
+                "filename": "Base.mjs",
+                "lineno": 200,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035214",
+                    "name": "Base#createItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "record"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Override this method for custom list items",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "record"
+                }
+            ],
+            "name": "createItem",
+            "longname": "Base#createItem",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#createItem",
+            "$kind": "method",
+            "id": 1219,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Override this method for custom renderers\n     * @param {Object} record\n     */",
+            "meta": {
+                "range": [
+                    5557,
+                    6112
+                ],
+                "filename": "Base.mjs",
+                "lineno": 216,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035252",
+                    "name": "Base#createItemContent",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "record"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Override this method for custom renderers",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "record"
+                }
+            ],
+            "name": "createItemContent",
+            "longname": "Base#createItemContent",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#createItemContent",
+            "$kind": "method",
+            "id": 1220,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * @param {Boolean} [silent=false]\n     */",
+            "meta": {
+                "range": [
+                    6173,
+                    6575
+                ],
+                "filename": "Base.mjs",
+                "lineno": 237,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035326",
+                    "name": "Base#createItems",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "silent"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "name": "silent"
+                }
+            ],
+            "name": "createItems",
+            "longname": "Base#createItems",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#createItems",
+            "$kind": "method",
+            "id": 1221,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    6604,
+                    6845
+                ],
+                "filename": "Base.mjs",
+                "lineno": 259,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035399",
+                    "name": "Base#destroy",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "destroy",
+            "longname": "Base#destroy",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#destroy",
+            "$kind": "method",
+            "id": 1222,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Number|String} id\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    6932,
+                    6989
+                ],
+                "filename": "Base.mjs",
+                "lineno": 278,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035440",
+                    "name": "Base#getItemId",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "id"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String"
+                        ]
+                    },
+                    "name": "id"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "getItemId",
+            "longname": "Base#getItemId",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#getItemId",
+            "$kind": "method",
+            "id": 1223,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {String|Number} itemId\n     */",
+            "meta": {
+                "range": [
+                    7088,
+                    7417
+                ],
+                "filename": "Base.mjs",
+                "lineno": 287,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035453",
+                    "name": "Base#getItemRecordId",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vnodeId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "vnodeId"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "Number"
+                        ]
+                    },
+                    "description": "itemId"
+                }
+            ],
+            "name": "getItemRecordId",
+            "longname": "Base#getItemRecordId",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#getItemRecordId",
+            "$kind": "method",
+            "id": 1224,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Support collections & stores\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    7500,
+                    7595
+                ],
+                "filename": "Base.mjs",
+                "lineno": 303,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035506",
+                    "name": "Base#getKeyProperty",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Support collections & stores",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "getKeyProperty",
+            "longname": "Base#getKeyProperty",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#getKeyProperty",
+            "$kind": "method",
+            "id": 1225,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    7652,
+                    7882
+                ],
+                "filename": "Base.mjs",
+                "lineno": 311,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035524",
+                    "name": "Base#onClick",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onClick",
+            "longname": "Base#onClick",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#onClick",
+            "$kind": "method",
+            "id": 1226,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    7939,
+                    8388
+                ],
+                "filename": "Base.mjs",
+                "lineno": 325,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035573",
+                    "name": "Base#onContainerClick",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onContainerClick",
+            "longname": "Base#onContainerClick",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#onContainerClick",
+            "$kind": "method",
+            "id": 1227,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * The containerClick event fires when a click occurs on the component, but not on a list item\n         * @event containerClick\n         * @param {String[]} cls the classList of the target node (converted to an array)\n         * @param {String} id the target dom id\n         * @param {String[]} path the event path\n         * @returns {Object}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 326,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "description": "The containerClick event fires when a click occurs on the component, but not on a list item",
+            "kind": "event",
+            "name": "containerClick",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array.<String>"
+                        ]
+                    },
+                    "description": "the classList of the target node (converted to an array)",
+                    "name": "cls"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "the target dom id",
+                    "name": "id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array.<String>"
+                        ]
+                    },
+                    "description": "the event path",
+                    "name": "path"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "longname": "event:containerClick",
+            "scope": "global",
+            "$longname": "event:containerClick",
+            "$kind": "event",
+            "id": 1228,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    8445,
+                    8939
+                ],
+                "filename": "Base.mjs",
+                "lineno": 341,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035585",
+                    "name": "Base#onItemClick",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onItemClick",
+            "longname": "Base#onItemClick",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#onItemClick",
+            "$kind": "method",
+            "id": 1229,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * The itemClick event fires when a click occurs on a list item\n         * @event itemClick\n         * @param {String} id the record matching the list item\n         * @returns {Object}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 349,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "description": "The itemClick event fires when a click occurs on a list item",
+            "kind": "event",
+            "name": "itemClick",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "the record matching the list item",
+                    "name": "id"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "longname": "event:itemClick",
+            "scope": "global",
+            "$longname": "event:itemClick",
+            "$kind": "event",
+            "id": 1230,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    8968,
+                    9019
+                ],
+                "filename": "Base.mjs",
+                "lineno": 361,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035638",
+                    "name": "Base#onStoreFilter",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onStoreFilter",
+            "longname": "Base#onStoreFilter",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#onStoreFilter",
+            "$kind": "method",
+            "id": 1231,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    9048,
+                    9097
+                ],
+                "filename": "Base.mjs",
+                "lineno": 368,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035647",
+                    "name": "Base#onStoreLoad",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onStoreLoad",
+            "longname": "Base#onStoreLoad",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#onStoreLoad",
+            "$kind": "method",
+            "id": 1232,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Convenience shortcut\n     * @param {Number} index\n     */",
+            "meta": {
+                "range": [
+                    9176,
+                    9339
+                ],
+                "filename": "Base.mjs",
+                "lineno": 376,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100035656",
+                    "name": "Base#selectItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "index"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Convenience shortcut",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                }
+            ],
+            "name": "selectItem",
+            "longname": "Base#selectItem",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#selectItem",
+            "$kind": "method",
+            "id": 1233,
+            "neoClassName": "Neo.list.Base"
+        }
+    ]
+}
