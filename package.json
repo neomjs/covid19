@@ -1,6 +1,6 @@
 {
     "name": "covid19-gallery",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "3d Gallery App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
