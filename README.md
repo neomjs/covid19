@@ -66,8 +66,7 @@ Your app code will get loaded into the App thread.
 ## Attribution
 1. This App is created using the <a href="https://github.com/neomjs/neo">neo.mjs</a> UI framework.
 2. Data provided by <a href="https://github.com/NovelCOVID/API">NovelCOVID/API</a>.
-3. <a href="https://cors-anywhere.herokuapp.com/">https://cors-anywhere.herokuapp.com/</a> is used to access the API via Javascript.
-4. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
+3. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
 
 ### Join our Slack Channel for questions & feedback:
 
