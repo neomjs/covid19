@@ -19,14 +19,39 @@
             "scope": "static",
             "$longname": "Neo.table.header.Button",
             "$kind": "class",
-            "id": 1731,
+            "id": 1748,
+            "neoClassName": "Neo.table.header.Button"
+        },
+        {
+            "comment": "/**\n         * Valid values for align\n         * @member {String[]} alignValues: ['left', 'center', 'right']\n         * @private\n         * @static\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 16,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
+                "code": {}
+            },
+            "description": "Valid values for align",
+            "kind": "member",
+            "name": "alignValues:",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "access": "private",
+            "scope": "static",
+            "longname": "alignValues:",
+            "$longname": "alignValues:",
+            "$kind": "property",
+            "id": 1749,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {String} className='Neo.table.header.Button'\n         * @private\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 14,
+                "lineno": 24,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -44,14 +69,14 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1732,
+            "id": 1750,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {String} ntype='table-header-button'\n         * @private\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 19,
+                "lineno": 29,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -69,14 +94,39 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1733,
+            "id": 1751,
+            "neoClassName": "Neo.table.header.Button"
+        },
+        {
+            "comment": "/**\n         * Alignment of the matching table cells. Valid values are left, center, right\n         * @member {String} align_='left'\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 34,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
+                "code": {}
+            },
+            "description": "Alignment of the matching table cells. Valid values are left, center, right",
+            "kind": "member",
+            "name": "align_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'left'",
+            "longname": "align_",
+            "scope": "global",
+            "$longname": "align_",
+            "$kind": "property",
+            "id": 1752,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {Array} cls=['neo-table-header-button']\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 23,
+                "lineno": 38,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -93,14 +143,14 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1734,
+            "id": 1753,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {Boolean} draggable_=true\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 27,
+                "lineno": 42,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -117,14 +167,14 @@
             "scope": "global",
             "$longname": "draggable_",
             "$kind": "property",
-            "id": 1735,
+            "id": 1754,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {String} iconCls='fa fa-arrow-circle-up'\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 31,
+                "lineno": 46,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -142,14 +192,14 @@
             "scope": "global",
             "$longname": "iconCls",
             "$kind": "property",
-            "id": 1736,
+            "id": 1755,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {String} iconPosition='right'\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 35,
+                "lineno": 50,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -166,14 +216,14 @@
             "scope": "global",
             "$longname": "iconPosition",
             "$kind": "property",
-            "id": 1737,
+            "id": 1756,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * 'ASC', 'DESC' or null\n         * @member {String|null} isSorted=null\n         * @private\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 41,
+                "lineno": 56,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -193,14 +243,40 @@
             "scope": "global",
             "$longname": "isSorted",
             "$kind": "property",
-            "id": 1738,
+            "id": 1757,
+            "neoClassName": "Neo.table.header.Button"
+        },
+        {
+            "comment": "/**\n         * Scope to execute the column renderer.\n         * Defaults to the matching table.Container\n         * @member {Neo.core.Base|null} rendererScope=null\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 62,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
+                "code": {}
+            },
+            "description": "Scope to execute the column renderer.<br />Defaults to the matching table.Container",
+            "kind": "member",
+            "name": "rendererScope",
+            "type": {
+                "names": [
+                    "Neo.core.Base",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "rendererScope",
+            "scope": "global",
+            "$longname": "rendererScope",
+            "$kind": "property",
+            "id": 1758,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n         * @member {String} _vdom\n         */",
             "meta": {
                 "filename": "Button.mjs",
-                "lineno": 45,
+                "lineno": 66,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -216,22 +292,22 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1739,
+            "id": 1759,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * Specify a different vdom root if needed to apply the top level style attributes on a different level.\n     * Make sure to use getVnodeRoot() as well, to keep the vdom & vnode trees in sync.\n     * @returns {Object} The new vdom root\n     */",
             "meta": {
                 "range": [
-                    1821,
-                    1874
+                    2475,
+                    2528
                 ],
                 "filename": "Button.mjs",
-                "lineno": 65,
+                "lineno": 86,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055201",
+                    "id": "astnode100056076",
                     "name": "Button#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -259,22 +335,22 @@
             "params": [],
             "$longname": "Button#getVdomRoot",
             "$kind": "method",
-            "id": 1740,
+            "id": 1760,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * Specify a different vnode root if needed to apply the top level style attributes on a different level.\n     * Make sure to use getVdomRoot() as well, to keep the vdom & vnode trees in sync.\n     * @returns {Object} The new vnode root\n     */",
             "meta": {
                 "range": [
-                    2137,
-                    2200
+                    2791,
+                    2854
                 ],
                 "filename": "Button.mjs",
-                "lineno": 74,
+                "lineno": 95,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055213",
+                    "id": "astnode100056088",
                     "name": "Button#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -302,22 +378,22 @@
             "params": [],
             "$longname": "Button#getVnodeRoot",
             "$kind": "method",
-            "id": 1741,
+            "id": 1761,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    2259,
-                    2830
+                    2913,
+                    3484
                 ],
                 "filename": "Button.mjs",
-                "lineno": 82,
+                "lineno": 103,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055225",
+                    "id": "astnode100056100",
                     "name": "Button",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -344,26 +420,27 @@
             "scope": "global",
             "$longname": "Button",
             "$kind": "constructor",
-            "id": 1742,
+            "id": 1762,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * Triggered after the draggable config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    2987,
-                    3249
+                    3641,
+                    3913
                 ],
                 "filename": "Button.mjs",
-                "lineno": 111,
+                "lineno": 132,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055289",
+                    "id": "astnode100056164",
                     "name": "Button#afterSetDraggable",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -397,22 +474,76 @@
             "scope": "instance",
             "$longname": "Button#afterSetDraggable",
             "$kind": "method",
-            "id": 1743,
+            "id": 1763,
+            "neoClassName": "Neo.table.header.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered before the align config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4066,
+                    4186
+                ],
+                "filename": "Button.mjs",
+                "lineno": 151,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
+                "code": {
+                    "id": "astnode100056208",
+                    "name": "Button#beforeSetAlign",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the align config gets changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetAlign",
+            "longname": "Button#beforeSetAlign",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#beforeSetAlign",
+            "$kind": "method",
+            "id": 1764,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3287,
-                    4361
+                    4224,
+                    5298
                 ],
                 "filename": "Button.mjs",
-                "lineno": 127,
+                "lineno": 158,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055332",
+                    "id": "astnode100056223",
                     "name": "Button#onButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -430,22 +561,22 @@
             "params": [],
             "$longname": "Button#onButtonClick",
             "$kind": "method",
-            "id": 1744,
+            "id": 1765,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4399,
-                    4531
+                    5336,
+                    5468
                 ],
                 "filename": "Button.mjs",
-                "lineno": 168,
+                "lineno": 199,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055457",
+                    "id": "astnode100056348",
                     "name": "Button#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -463,22 +594,22 @@
             "params": [],
             "$longname": "Button#onDragEnd",
             "$kind": "method",
-            "id": 1745,
+            "id": 1766,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4569,
-                    4707
+                    5506,
+                    5644
                 ],
                 "filename": "Button.mjs",
-                "lineno": 179,
+                "lineno": 210,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055481",
+                    "id": "astnode100056372",
                     "name": "Button#onDragEnter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -496,22 +627,22 @@
             "params": [],
             "$longname": "Button#onDragEnter",
             "$kind": "method",
-            "id": 1746,
+            "id": 1767,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4745,
-                    4886
+                    5682,
+                    5823
                 ],
                 "filename": "Button.mjs",
-                "lineno": 190,
+                "lineno": 221,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055507",
+                    "id": "astnode100056398",
                     "name": "Button#onDragLeave",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -529,22 +660,22 @@
             "params": [],
             "$longname": "Button#onDragLeave",
             "$kind": "method",
-            "id": 1747,
+            "id": 1768,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    4944,
-                    5013
+                    5881,
+                    5950
                 ],
                 "filename": "Button.mjs",
-                "lineno": 202,
+                "lineno": 233,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055533",
+                    "id": "astnode100056424",
                     "name": "Button#onDragOver",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -572,22 +703,22 @@
             "scope": "instance",
             "$longname": "Button#onDragOver",
             "$kind": "method",
-            "id": 1748,
+            "id": 1769,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5051,
-                    5184
+                    5988,
+                    6121
                 ],
                 "filename": "Button.mjs",
-                "lineno": 209,
+                "lineno": 240,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055538",
+                    "id": "astnode100056429",
                     "name": "Button#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -605,22 +736,22 @@
             "params": [],
             "$longname": "Button#onDragStart",
             "$kind": "method",
-            "id": 1749,
+            "id": 1770,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    5241,
-                    5624
+                    6178,
+                    6561
                 ],
                 "filename": "Button.mjs",
-                "lineno": 221,
+                "lineno": 252,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055563",
+                    "id": "astnode100056454",
                     "name": "Button#onDrop",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -648,22 +779,22 @@
             "scope": "instance",
             "$longname": "Button#onDrop",
             "$kind": "method",
-            "id": 1750,
+            "id": 1771,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5662,
-                    5841
+                    6599,
+                    6778
                 ],
                 "filename": "Button.mjs",
-                "lineno": 235,
+                "lineno": 266,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055627",
+                    "id": "astnode100056518",
                     "name": "Button#removeSortingCss",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -681,22 +812,22 @@
             "params": [],
             "$longname": "Button#removeSortingCss",
             "$kind": "method",
-            "id": 1751,
+            "id": 1772,
             "neoClassName": "Neo.table.header.Button"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @returns {*}\n     */",
             "meta": {
                 "range": [
-                    5919,
-                    5964
+                    6856,
+                    6901
                 ],
                 "filename": "Button.mjs",
-                "lineno": 250,
+                "lineno": 281,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100055659",
+                    "id": "astnode100056550",
                     "name": "Button#renderer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -733,7 +864,7 @@
             "scope": "instance",
             "$longname": "Button#renderer",
             "$kind": "method",
-            "id": 1752,
+            "id": 1773,
             "neoClassName": "Neo.table.header.Button"
         }
     ]

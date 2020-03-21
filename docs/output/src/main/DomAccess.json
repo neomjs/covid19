@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.main.DomAccess",
             "$kind": "class",
-            "id": 1292,
+            "id": 1305,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1293,
+            "id": 1306,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -75,7 +75,7 @@
             "scope": "global",
             "$longname": "logDeltaUpdates",
             "$kind": "property",
-            "id": 1294,
+            "id": 1307,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -100,7 +100,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1295,
+            "id": 1308,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -125,7 +125,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 1296,
+            "id": 1309,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -151,14 +151,14 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1297,
+            "id": 1310,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n         * Void attributes inside html tags\n         * @member {String[]} voidAttributes\n         * @private\n         */",
             "meta": {
                 "filename": "DomAccess.mjs",
-                "lineno": 67,
+                "lineno": 69,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -176,22 +176,22 @@
             "scope": "global",
             "$longname": "voidAttributes",
             "$kind": "property",
-            "id": 1298,
+            "id": 1311,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    2046,
-                    2231
+                    2111,
+                    2296
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 77,
+                "lineno": 79,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100037716",
+                    "id": "astnode100038122",
                     "name": "DomAccess",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -218,22 +218,89 @@
             "scope": "global",
             "$longname": "DomAccess",
             "$kind": "constructor",
-            "id": 1299,
+            "id": 1312,
+            "neoClassName": "Neo.main.DomAccess"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Boolean} data.async\n     * @param {Boolean} data.defer\n     * @param {String} data.src\n     */",
+            "meta": {
+                "range": [
+                    2455,
+                    2617
+                ],
+                "filename": "DomAccess.mjs",
+                "lineno": 97,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100038152",
+                    "name": "DomAccess#addScript",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "data.async"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "data.defer"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.src"
+                }
+            ],
+            "name": "addScript",
+            "longname": "DomAccess#addScript",
+            "kind": "function",
+            "memberof": "DomAccess",
+            "scope": "instance",
+            "$longname": "DomAccess#addScript",
+            "$kind": "method",
+            "id": 1313,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String[]} data.cls\n     */",
             "meta": {
                 "range": [
-                    2322,
-                    2429
+                    2708,
+                    2815
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 93,
+                "lineno": 110,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100037746",
+                    "id": "astnode100038180",
                     "name": "DomAccess#applyBodyCls",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -269,22 +336,22 @@
             "scope": "instance",
             "$longname": "DomAccess#applyBodyCls",
             "$kind": "method",
-            "id": 1300,
+            "id": 1314,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.command\n     * @returns {Object} data\n     */",
             "meta": {
                 "range": [
-                    2552,
-                    2642
+                    2938,
+                    3028
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 104,
+                "lineno": 121,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100037770",
+                    "id": "astnode100038204",
                     "name": "DomAccess#execCommand",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -330,22 +397,22 @@
             "scope": "instance",
             "$longname": "DomAccess#execCommand",
             "$kind": "method",
-            "id": 1301,
+            "id": 1315,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     * Calls focus on a node for a given dom node id\n     * @param {Object} data\n     * @returns {Object} obj.id => the passed id\n     */",
             "meta": {
                 "range": [
-                    2794,
-                    2946
+                    3180,
+                    3332
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 114,
+                "lineno": 131,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100037785",
+                    "id": "astnode100038219",
                     "name": "DomAccess#focus",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -384,22 +451,22 @@
             "scope": "instance",
             "$longname": "DomAccess#focus",
             "$kind": "method",
-            "id": 1302,
+            "id": 1316,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     * Returns the attributes for a given dom node id\n     * @param {Object} data\n     * @param {Array|String} data.id either an id or an array of ids\n     * @param {Array|String} data.attributes either an attribute or an array of attributes\n     * @returns {Array|Object} In case id is an array, an array of atrrbute objects is returned, otherwise an object\n     */",
             "meta": {
                 "range": [
-                    3327,
-                    4114
+                    3713,
+                    4500
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 131,
+                "lineno": 148,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100037814",
+                    "id": "astnode100038248",
                     "name": "DomAccess#getAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -459,22 +526,22 @@
             "scope": "instance",
             "$longname": "DomAccess#getAttributes",
             "$kind": "method",
-            "id": 1303,
+            "id": 1317,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     * Returns node.getBoundingClientRect() for a given dom node id\n     * @param {Object} data\n     * @param {Array|String} data.id either an id or an array of ids\n     * @returns {Array|Object} In case id is an array, an array of DomRects is returned, otherwise an DomRect object\n     */",
             "meta": {
                 "range": [
-                    4418,
-                    5379
+                    4804,
+                    5765
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 168,
+                "lineno": 185,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100037918",
+                    "id": "astnode100038352",
                     "name": "DomAccess#getBoundingClientRect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -524,22 +591,22 @@
             "scope": "instance",
             "$longname": "DomAccess#getBoundingClientRect",
             "$kind": "method",
-            "id": 1304,
+            "id": 1318,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {String} nodeId\n     * @return {HTMLElement}\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5483,
-                    5557
+                    5869,
+                    5943
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 209,
+                "lineno": 226,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038030",
+                    "id": "astnode100038464",
                     "name": "DomAccess#getElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -577,22 +644,22 @@
             "scope": "instance",
             "$longname": "DomAccess#getElement",
             "$kind": "method",
-            "id": 1305,
+            "id": 1319,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {String} [nodeId='body']\n     * @return {HTMLElement}\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5670,
-                    5861
+                    6056,
+                    6247
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 219,
+                "lineno": 236,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038041",
+                    "id": "astnode100038475",
                     "name": "DomAccess#getElementOrBody",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -632,22 +699,22 @@
             "scope": "instance",
             "$longname": "DomAccess#getElementOrBody",
             "$kind": "method",
-            "id": 1306,
+            "id": 1320,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String[]} data.attributes\n     * @param {Array} data.functions An array containing strings and/or objects\n     * @param {String[]} data.styles\n     * @param {String} data.vnodeId\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6128,
-                    8013
+                    6514,
+                    8399
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 236,
+                "lineno": 253,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038068",
+                    "id": "astnode100038502",
                     "name": "DomAccess#onReadDom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -709,22 +776,22 @@
             "scope": "instance",
             "$longname": "DomAccess#onReadDom",
             "$kind": "method",
-            "id": 1307,
+            "id": 1321,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    8086,
-                    8459
+                    8472,
+                    8845
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 298,
+                "lineno": 315,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038337",
+                    "id": "astnode100038771",
                     "name": "DomAccess#onScrollIntoView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -753,22 +820,22 @@
             "scope": "instance",
             "$longname": "DomAccess#onScrollIntoView",
             "$kind": "method",
-            "id": 1308,
+            "id": 1322,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    8532,
-                    8622
+                    8918,
+                    9008
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 316,
+                "lineno": 333,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038382",
+                    "id": "astnode100038816",
                     "name": "DomAccess#read",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -797,22 +864,22 @@
             "scope": "instance",
             "$longname": "DomAccess#read",
             "$kind": "method",
-            "id": 1309,
+            "id": 1323,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     * @param {String} [data.behavior='smooth']\n     * @param {String} [data.block='start']\n     * @param {String} [data.inline='nearest']\n     * @returns {Object} obj.id => the passed id\n     */",
             "meta": {
                 "range": [
-                    8898,
-                    9241
+                    9284,
+                    9627
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 331,
+                "lineno": 348,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038396",
+                    "id": "astnode100038830",
                     "name": "DomAccess#scrollIntoView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -888,22 +955,103 @@
             "scope": "instance",
             "$longname": "DomAccess#scrollIntoView",
             "$kind": "method",
-            "id": 1310,
+            "id": 1324,
+            "neoClassName": "Neo.main.DomAccess"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     * @param {String} [data.behavior='smooth']\n     * @param {String} [data.offset=34]\n     * @returns {Object} obj.id => the passed id\n     */",
+            "meta": {
+                "range": [
+                    9852,
+                    10441
+                ],
+                "filename": "DomAccess.mjs",
+                "lineno": 370,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100038878",
+                    "name": "DomAccess#scrollToTableRow",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": "'smooth'",
+                    "name": "data.behavior"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": 34,
+                    "name": "data.offset"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "obj.id => the passed id"
+                }
+            ],
+            "name": "scrollToTableRow",
+            "longname": "DomAccess#scrollToTableRow",
+            "kind": "function",
+            "memberof": "DomAccess",
+            "scope": "instance",
+            "$longname": "DomAccess#scrollToTableRow",
+            "$kind": "method",
+            "id": 1325,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     * @param {Number} [data.start=0]\n     * @param {Number} [data.end=99999]\n     * @returns {Object} obj.id => the passed id\n     */",
             "meta": {
                 "range": [
-                    9456,
-                    9769
+                    10656,
+                    10969
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 353,
+                "lineno": 396,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038444",
+                    "id": "astnode100038958",
                     "name": "DomAccess#selectNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -969,22 +1117,22 @@
             "scope": "instance",
             "$longname": "DomAccess#selectNode",
             "$kind": "method",
-            "id": 1311,
+            "id": 1326,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} [data.behavior='smooth'] // auto or smooth\n     * @param {String} [data.left=0]\n     * @param {String} [data.top=0]\n     */",
             "meta": {
                 "range": [
-                    9965,
-                    10163
+                    11165,
+                    11363
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 373,
+                "lineno": 416,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038502",
+                    "id": "astnode100039016",
                     "name": "DomAccess#windowScrollTo",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1043,22 +1191,22 @@
             "scope": "instance",
             "$longname": "DomAccess#windowScrollTo",
             "$kind": "method",
-            "id": 1312,
+            "id": 1327,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    10236,
-                    10859
+                    11436,
+                    12059
                 ],
                 "filename": "DomAccess.mjs",
-                "lineno": 386,
+                "lineno": 429,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038531",
+                    "id": "astnode100039045",
                     "name": "DomAccess#write",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1087,7 +1235,7 @@
             "scope": "instance",
             "$longname": "DomAccess#write",
             "$kind": "method",
-            "id": 1313,
+            "id": 1328,
             "neoClassName": "Neo.main.DomAccess"
         }
     ]

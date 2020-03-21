@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.Fieldset",
             "$kind": "class",
-            "id": 1099,
+            "id": 1109,
             "neoClassName": "Neo.form.Fieldset"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1100,
+            "id": 1110,
             "neoClassName": "Neo.form.Fieldset"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1101,
+            "id": 1111,
             "neoClassName": "Neo.form.Fieldset"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1102,
+            "id": 1112,
             "neoClassName": "Neo.form.Fieldset"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1103,
+            "id": 1113,
             "neoClassName": "Neo.form.Fieldset"
         }
     ]

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.grid.header.Toolbar",
             "$kind": "class",
-            "id": 1122,
+            "id": 1132,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1123,
+            "id": 1133,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1124,
+            "id": 1134,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1125,
+            "id": 1135,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "_layout",
             "$kind": "property",
-            "id": 1126,
+            "id": 1136,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "itemDefaults",
             "$kind": "property",
-            "id": 1127,
+            "id": 1137,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1128,
+            "id": 1138,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -182,7 +182,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033472",
+                    "id": "astnode100033758",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -216,7 +216,7 @@
             "scope": "instance",
             "$longname": "Toolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 1129,
+            "id": 1139,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033479",
+                    "id": "astnode100033765",
                     "name": "Toolbar#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -257,7 +257,7 @@
             "params": [],
             "$longname": "Toolbar#getVdomRoot",
             "$kind": "method",
-            "id": 1130,
+            "id": 1140,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033491",
+                    "id": "astnode100033777",
                     "name": "Toolbar#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -298,7 +298,7 @@
             "params": [],
             "$longname": "Toolbar#getVnodeRoot",
             "$kind": "method",
-            "id": 1131,
+            "id": 1141,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033503",
+                    "id": "astnode100033789",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -341,7 +341,7 @@
             "scope": "instance",
             "$longname": "Toolbar#createItems",
             "$kind": "method",
-            "id": 1132,
+            "id": 1142,
             "neoClassName": "Neo.grid.header.Toolbar"
         },
         {
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033589",
+                    "id": "astnode100033875",
                     "name": "Toolbar#render",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -373,7 +373,7 @@
             "params": [],
             "$longname": "Toolbar#render",
             "$kind": "method",
-            "id": 1133,
+            "id": 1143,
             "neoClassName": "Neo.grid.header.Toolbar"
         }
     ]

@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.Markdown",
             "$kind": "class",
-            "id": 1367,
+            "id": 1382,
             "neoClassName": "Neo.main.mixins.Markdown"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1368,
+            "id": 1383,
             "neoClassName": "Neo.main.mixins.Markdown"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041450",
+                    "id": "astnode100041989",
                     "name": "Markdown#markdownToHtml",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -98,7 +98,7 @@
             "scope": "instance",
             "$longname": "Markdown#markdownToHtml",
             "$kind": "method",
-            "id": 1369,
+            "id": 1384,
             "neoClassName": "Neo.main.mixins.Markdown"
         }
     ]

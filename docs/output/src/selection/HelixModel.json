@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.selection.HelixModel",
             "$kind": "class",
-            "id": 1501,
+            "id": 1516,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1502,
+            "id": 1517,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1503,
+            "id": 1518,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "stayInColumn",
             "$kind": "property",
-            "id": 1504,
+            "id": 1519,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048128",
+                    "id": "astnode100048791",
                     "name": "HelixModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -128,7 +128,7 @@
             "params": [],
             "$longname": "HelixModel#addDomListener",
             "$kind": "method",
-            "id": 1505,
+            "id": 1520,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
@@ -143,7 +143,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048132",
+                    "id": "astnode100048795",
                     "name": "HelixModel#onContainerClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -160,7 +160,7 @@
             "params": [],
             "$longname": "HelixModel#onContainerClick",
             "$kind": "method",
-            "id": 1506,
+            "id": 1521,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
@@ -168,14 +168,14 @@
             "meta": {
                 "range": [
                     1682,
-                    1973
+                    2152
                 ],
                 "filename": "HelixModel.mjs",
                 "lineno": 67,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048225",
+                    "id": "astnode100048888",
                     "name": "HelixModel#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -203,22 +203,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onItemClick",
             "$kind": "method",
-            "id": 1507,
+            "id": 1522,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2030,
-                    2089
+                    2209,
+                    2268
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 83,
+                "lineno": 91,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048280",
+                    "id": "astnode100048967",
                     "name": "HelixModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -246,22 +246,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1508,
+            "id": 1523,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2146,
-                    2203
+                    2325,
+                    2382
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 91,
+                "lineno": 99,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048291",
+                    "id": "astnode100048978",
                     "name": "HelixModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,22 +289,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 1509,
+            "id": 1524,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2260,
-                    2317
+                    2439,
+                    2496
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 99,
+                "lineno": 107,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048303",
+                    "id": "astnode100048990",
                     "name": "HelixModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -332,22 +332,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onKeyDownRight",
             "$kind": "method",
-            "id": 1510,
+            "id": 1525,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2374,
-                    2432
+                    2553,
+                    2611
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 107,
+                "lineno": 115,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048314",
+                    "id": "astnode100049001",
                     "name": "HelixModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -375,22 +375,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1511,
+            "id": 1526,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} step=1\n     */",
             "meta": {
                 "range": [
-                    2491,
-                    3466
+                    2670,
+                    3765
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 115,
+                "lineno": 123,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048326",
+                    "id": "astnode100049013",
                     "name": "HelixModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -419,22 +419,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onNavKeyColumn",
             "$kind": "method",
-            "id": 1512,
+            "id": 1527,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} step=1\n     */",
             "meta": {
                 "range": [
-                    3525,
-                    4075
+                    3824,
+                    4494
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 156,
+                "lineno": 170,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048452",
+                    "id": "astnode100049158",
                     "name": "HelixModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -463,22 +463,22 @@
             "scope": "instance",
             "$longname": "HelixModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1513,
+            "id": 1528,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Neo.component.Base} component\n     */",
             "meta": {
                 "range": [
-                    4149,
-                    4790
+                    4568,
+                    5209
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 183,
+                "lineno": 203,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048536",
+                    "id": "astnode100049261",
                     "name": "HelixModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -506,26 +506,27 @@
             "scope": "instance",
             "$longname": "HelixModel#register",
             "$kind": "method",
-            "id": 1514,
+            "id": 1529,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
-            "comment": "/**\n     *\n     * @param {String} itemId\n     */",
+            "comment": "/**\n     *\n     * @param {String} itemId\n     * @param {Boolean} [toggleSelection=true]\n     */",
             "meta": {
                 "range": [
-                    4849,
-                    6102
+                    5315,
+                    6626
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 210,
+                "lineno": 231,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048619",
+                    "id": "astnode100049344",
                     "name": "HelixModel#select",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "itemId"
+                        "itemId",
+                        "toggleSelection"
                     ]
                 },
                 "vars": {
@@ -540,6 +541,16 @@
                         ]
                     },
                     "name": "itemId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": true,
+                    "name": "toggleSelection"
                 }
             ],
             "name": "select",
@@ -549,22 +560,22 @@
             "scope": "instance",
             "$longname": "HelixModel#select",
             "$kind": "method",
-            "id": 1515,
+            "id": 1530,
             "neoClassName": "Neo.selection.HelixModel"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    6131,
-                    6605
+                    6655,
+                    7129
                 ],
                 "filename": "HelixModel.mjs",
-                "lineno": 256,
+                "lineno": 277,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048772",
+                    "id": "astnode100049505",
                     "name": "HelixModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -581,7 +592,7 @@
             "params": [],
             "$longname": "HelixModel#unregister",
             "$kind": "method",
-            "id": 1516,
+            "id": 1531,
             "neoClassName": "Neo.selection.HelixModel"
         }
     ]

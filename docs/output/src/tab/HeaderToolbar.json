@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.tab.HeaderToolbar",
             "$kind": "class",
-            "id": 1668,
+            "id": 1685,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1669,
+            "id": 1686,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1670,
+            "id": 1687,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1671,
+            "id": 1688,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1672,
+            "id": 1689,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -132,7 +132,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053723",
+                    "id": "astnode100054581",
                     "name": "HeaderToolbar#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -171,7 +171,7 @@
             "scope": "instance",
             "$longname": "HeaderToolbar#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1673,
+            "id": 1690,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053773",
+                    "id": "astnode100054631",
                     "name": "HeaderToolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -204,7 +204,7 @@
             "params": [],
             "$longname": "HeaderToolbar#createItems",
             "$kind": "method",
-            "id": 1674,
+            "id": 1691,
             "neoClassName": "Neo.tab.HeaderToolbar"
         },
         {
@@ -219,7 +219,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053807",
+                    "id": "astnode100054665",
                     "name": "HeaderToolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -248,7 +248,7 @@
             "params": [],
             "$longname": "HeaderToolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 1675,
+            "id": 1692,
             "neoClassName": "Neo.tab.HeaderToolbar"
         }
     ]

@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.manager.Base",
             "$kind": "class",
-            "id": 1381,
+            "id": 1396,
             "neoClassName": "Neo.manager.Base"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1382,
+            "id": 1397,
             "neoClassName": "Neo.manager.Base"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1383,
+            "id": 1398,
             "neoClassName": "Neo.manager.Base"
         },
         {
@@ -85,7 +85,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100042164",
+                    "id": "astnode100042703",
                     "name": "Base#getById",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -123,7 +123,7 @@
             "scope": "instance",
             "$longname": "Base#getById",
             "$kind": "method",
-            "id": 1384,
+            "id": 1399,
             "neoClassName": "Neo.manager.Base"
         },
         {
@@ -138,7 +138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100042175",
+                    "id": "astnode100042714",
                     "name": "Base#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -166,7 +166,7 @@
             "scope": "instance",
             "$longname": "Base#register",
             "$kind": "method",
-            "id": 1385,
+            "id": 1400,
             "neoClassName": "Neo.manager.Base"
         },
         {
@@ -181,7 +181,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100042214",
+                    "id": "astnode100042753",
                     "name": "Base#unregister",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -209,7 +209,7 @@
             "scope": "instance",
             "$longname": "Base#unregister",
             "$kind": "method",
-            "id": 1386,
+            "id": 1401,
             "neoClassName": "Neo.manager.Base"
         }
     ]

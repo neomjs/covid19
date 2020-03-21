@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.selection.GalleryModel",
             "$kind": "class",
-            "id": 1485,
+            "id": 1500,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1486,
+            "id": 1501,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1487,
+            "id": 1502,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "stayInRow",
             "$kind": "property",
-            "id": 1488,
+            "id": 1503,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047335",
+                    "id": "astnode100047928",
                     "name": "GalleryModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -128,7 +128,7 @@
             "params": [],
             "$longname": "GalleryModel#addDomListener",
             "$kind": "method",
-            "id": 1489,
+            "id": 1504,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -143,7 +143,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047339",
+                    "id": "astnode100047932",
                     "name": "GalleryModel#onContainerClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -160,7 +160,7 @@
             "params": [],
             "$longname": "GalleryModel#onContainerClick",
             "$kind": "method",
-            "id": 1490,
+            "id": 1505,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -168,14 +168,14 @@
             "meta": {
                 "range": [
                     1690,
-                    1983
+                    2162
                 ],
                 "filename": "GalleryModel.mjs",
                 "lineno": 67,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047432",
+                    "id": "astnode100048025",
                     "name": "GalleryModel#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -203,22 +203,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onItemClick",
             "$kind": "method",
-            "id": 1491,
+            "id": 1506,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2040,
-                    2141
+                    2219,
+                    2320
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 83,
+                "lineno": 91,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047487",
+                    "id": "astnode100048104",
                     "name": "GalleryModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -246,22 +246,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1492,
+            "id": 1507,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2198,
-                    2300
+                    2377,
+                    2479
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 91,
+                "lineno": 99,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047505",
+                    "id": "astnode100048122",
                     "name": "GalleryModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,22 +289,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 1493,
+            "id": 1508,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2357,
-                    2459
+                    2536,
+                    2638
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 99,
+                "lineno": 107,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047524",
+                    "id": "astnode100048141",
                     "name": "GalleryModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -332,22 +332,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownRight",
             "$kind": "method",
-            "id": 1494,
+            "id": 1509,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2516,
-                    2616
+                    2695,
+                    2795
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 107,
+                "lineno": 115,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047542",
+                    "id": "astnode100048159",
                     "name": "GalleryModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -375,22 +375,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1495,
+            "id": 1510,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} step=1\n     */",
             "meta": {
                 "range": [
-                    2675,
-                    3228
+                    2854,
+                    3527
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 115,
+                "lineno": 123,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047561",
+                    "id": "astnode100048178",
                     "name": "GalleryModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -419,22 +419,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onNavKeyColumn",
             "$kind": "method",
-            "id": 1496,
+            "id": 1511,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} step=1\n     */",
             "meta": {
                 "range": [
-                    3287,
-                    4344
+                    3586,
+                    4763
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 142,
+                "lineno": 156,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047645",
+                    "id": "astnode100048281",
                     "name": "GalleryModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -463,22 +463,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1497,
+            "id": 1512,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Neo.component.Base} component\n     */",
             "meta": {
                 "range": [
-                    4418,
-                    5059
+                    4837,
+                    5478
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 187,
+                "lineno": 207,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047787",
+                    "id": "astnode100048442",
                     "name": "GalleryModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -506,26 +506,27 @@
             "scope": "instance",
             "$longname": "GalleryModel#register",
             "$kind": "method",
-            "id": 1498,
+            "id": 1513,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
-            "comment": "/**\n     *\n     * @param {String} itemId\n     */",
+            "comment": "/**\n     *\n     * @param {String} itemId\n     * @param {Boolean} [toggleSelection=true]\n     */",
             "meta": {
                 "range": [
-                    5118,
-                    6355
+                    5584,
+                    6879
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 214,
+                "lineno": 235,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100047870",
+                    "id": "astnode100048525",
                     "name": "GalleryModel#select",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "itemId"
+                        "itemId",
+                        "toggleSelection"
                     ]
                 },
                 "vars": {
@@ -540,6 +541,16 @@
                         ]
                     },
                     "name": "itemId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": true,
+                    "name": "toggleSelection"
                 }
             ],
             "name": "select",
@@ -549,22 +560,22 @@
             "scope": "instance",
             "$longname": "GalleryModel#select",
             "$kind": "method",
-            "id": 1499,
+            "id": 1514,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    6384,
-                    6858
+                    6908,
+                    7382
                 ],
                 "filename": "GalleryModel.mjs",
-                "lineno": 259,
+                "lineno": 280,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048028",
+                    "id": "astnode100048691",
                     "name": "GalleryModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -581,7 +592,7 @@
             "params": [],
             "$longname": "GalleryModel#unregister",
             "$kind": "method",
-            "id": 1500,
+            "id": 1515,
             "neoClassName": "Neo.selection.GalleryModel"
         }
     ]

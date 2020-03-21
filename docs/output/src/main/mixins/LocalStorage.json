@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.LocalStorage",
             "$kind": "class",
-            "id": 1361,
+            "id": 1376,
             "neoClassName": "Neo.main.mixins.LocalStorage"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1362,
+            "id": 1377,
             "neoClassName": "Neo.main.mixins.LocalStorage"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041357",
+                    "id": "astnode100041896",
                     "name": "LocalStorage#createLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -112,7 +112,7 @@
             "scope": "instance",
             "$longname": "LocalStorage#createLocalStorageItem",
             "$kind": "method",
-            "id": 1363,
+            "id": 1378,
             "neoClassName": "Neo.main.mixins.LocalStorage"
         },
         {
@@ -127,7 +127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041368",
+                    "id": "astnode100041907",
                     "name": "LocalStorage#destroyLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -164,7 +164,7 @@
             "scope": "instance",
             "$longname": "LocalStorage#destroyLocalStorageItem",
             "$kind": "method",
-            "id": 1364,
+            "id": 1379,
             "neoClassName": "Neo.main.mixins.LocalStorage"
         },
         {
@@ -179,7 +179,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041383",
+                    "id": "astnode100041922",
                     "name": "LocalStorage#readLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -216,7 +216,7 @@
             "scope": "instance",
             "$longname": "LocalStorage#readLocalStorageItem",
             "$kind": "method",
-            "id": 1365,
+            "id": 1380,
             "neoClassName": "Neo.main.mixins.LocalStorage"
         },
         {
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041404",
+                    "id": "astnode100041943",
                     "name": "LocalStorage#updateLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -276,7 +276,7 @@
             "scope": "instance",
             "$longname": "LocalStorage#updateLocalStorageItem",
             "$kind": "method",
-            "id": 1366,
+            "id": 1381,
             "neoClassName": "Neo.main.mixins.LocalStorage"
         }
     ]
