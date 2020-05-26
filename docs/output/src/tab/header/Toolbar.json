@@ -1,34 +1,34 @@
 {
     "classData": [
         {
-            "comment": "/**\n * @class Neo.tab.HeaderToolbar\n * @extends Neo.container.Toolbar\n */",
+            "comment": "/**\n * @class Neo.tab.header.Toolbar\n * @extends Neo.container.Toolbar\n */",
             "meta": {
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 3,
                 "columnno": 0,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "class",
-            "name": "HeaderToolbar",
+            "name": "Toolbar",
             "augments": [
                 "Neo.container.Toolbar"
             ],
-            "memberof": "Neo.tab",
-            "longname": "Neo.tab.HeaderToolbar",
+            "memberof": "Neo.tab.header",
+            "longname": "Neo.tab.header.Toolbar",
             "scope": "static",
-            "$longname": "Neo.tab.HeaderToolbar",
+            "$longname": "Neo.tab.header.Toolbar",
             "$kind": "class",
-            "id": 1685,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1820,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
-            "comment": "/**\n         * @member {String} className='Neo.tab.HeaderToolbar'\n         * @private\n         */",
+            "comment": "/**\n         * @member {String} className='Neo.tab.header.Toolbar'\n         * @private\n         */",
             "meta": {
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 13,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -38,22 +38,22 @@
                     "String"
                 ]
             },
-            "defaultvalue": "'Neo.tab.HeaderToolbar'",
+            "defaultvalue": "'Neo.tab.header.Toolbar'",
             "access": "private",
             "longname": "className",
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1686,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1821,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
             "comment": "/**\n         * @member {String} ntype='tab-header-toolbar'\n         * @private\n         */",
             "meta": {
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 18,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -69,16 +69,16 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1687,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1822,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
             "comment": "/**\n         * @member {Array} cls=['neo-tab-header-toolbar','neo-toolbar']\n         */",
             "meta": {
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 22,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -93,16 +93,16 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1688,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1823,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
             "comment": "/**\n         * @member {Boolean} useActiveTabIndicator_=true\n         */",
             "meta": {
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 26,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -117,23 +117,23 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1689,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1824,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
             "comment": "/**\n     * Triggered after the useActiveTabIndicator config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    925,
-                    1317
+                    946,
+                    1338
                 ],
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 35,
                 "columnno": 4,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100054581",
-                    "name": "HeaderToolbar#afterSetUseActiveTabIndicator",
+                    "id": "astnode100058035",
+                    "name": "Toolbar#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
                         "value",
@@ -165,29 +165,29 @@
             ],
             "access": "private",
             "name": "afterSetUseActiveTabIndicator",
-            "longname": "HeaderToolbar#afterSetUseActiveTabIndicator",
+            "longname": "Toolbar#afterSetUseActiveTabIndicator",
             "kind": "function",
-            "memberof": "HeaderToolbar",
+            "memberof": "Toolbar",
             "scope": "instance",
-            "$longname": "HeaderToolbar#afterSetUseActiveTabIndicator",
+            "$longname": "Toolbar#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1690,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1825,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
             "comment": "/**\n     *\n     * @private\n     */",
             "meta": {
                 "range": [
-                    1362,
-                    1592
+                    1383,
+                    1613
                 ],
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 54,
                 "columnno": 4,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100054631",
-                    "name": "HeaderToolbar#createItems",
+                    "id": "astnode100058085",
+                    "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
                 },
@@ -197,30 +197,30 @@
             },
             "access": "private",
             "name": "createItems",
-            "longname": "HeaderToolbar#createItems",
+            "longname": "Toolbar#createItems",
             "kind": "function",
-            "memberof": "HeaderToolbar",
+            "memberof": "Toolbar",
             "scope": "instance",
             "params": [],
-            "$longname": "HeaderToolbar#createItems",
+            "$longname": "Toolbar#createItems",
             "$kind": "method",
-            "id": 1691,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1826,
+            "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
             "comment": "/**\n     * Returns the layout config matching to the dock position\n     * @returns {Object} layoutConfig\n     * @private\n     */",
             "meta": {
                 "range": [
-                    1731,
-                    2611
+                    1752,
+                    2632
                 ],
-                "filename": "HeaderToolbar.mjs",
+                "filename": "Toolbar.mjs",
                 "lineno": 69,
                 "columnno": 4,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100054665",
-                    "name": "HeaderToolbar#getLayoutConfig",
+                    "id": "astnode100058119",
+                    "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
                 },
@@ -241,15 +241,15 @@
             ],
             "access": "private",
             "name": "getLayoutConfig",
-            "longname": "HeaderToolbar#getLayoutConfig",
+            "longname": "Toolbar#getLayoutConfig",
             "kind": "function",
-            "memberof": "HeaderToolbar",
+            "memberof": "Toolbar",
             "scope": "instance",
             "params": [],
-            "$longname": "HeaderToolbar#getLayoutConfig",
+            "$longname": "Toolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 1692,
-            "neoClassName": "Neo.tab.HeaderToolbar"
+            "id": 1827,
+            "neoClassName": "Neo.tab.header.Toolbar"
         }
     ]
 }

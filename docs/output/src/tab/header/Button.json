@@ -1,34 +1,34 @@
 {
     "classData": [
         {
-            "comment": "/**\n * @class Neo.tab.HeaderButton\n * @extends Neo.container.Toolbar\n */",
+            "comment": "/**\n * @class Neo.tab.header.Button\n * @extends Neo.component.Button\n */",
             "meta": {
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 3,
                 "columnno": 0,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "class",
-            "name": "HeaderButton",
+            "name": "Button",
             "augments": [
-                "Neo.container.Toolbar"
+                "Neo.component.Button"
             ],
-            "memberof": "Neo.tab",
-            "longname": "Neo.tab.HeaderButton",
+            "memberof": "Neo.tab.header",
+            "longname": "Neo.tab.header.Button",
             "scope": "static",
-            "$longname": "Neo.tab.HeaderButton",
+            "$longname": "Neo.tab.header.Button",
             "$kind": "class",
-            "id": 1677,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1812,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
-            "comment": "/**\n         * @member {String} className='Neo.tab.HeaderButton'\n         * @private\n         */",
+            "comment": "/**\n         * @member {String} className='Neo.tab.header.Button'\n         * @private\n         */",
             "meta": {
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 13,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -38,22 +38,22 @@
                     "String"
                 ]
             },
-            "defaultvalue": "'Neo.tab.HeaderButton'",
+            "defaultvalue": "'Neo.tab.header.Button'",
             "access": "private",
             "longname": "className",
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1678,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1813,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
             "comment": "/**\n         * @member {String} ntype='tab-header-button'\n         * @private\n         */",
             "meta": {
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 18,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -69,16 +69,16 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1679,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1814,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
             "comment": "/**\n         * @member {Array} cls=['neo-button', 'neo-tab-button']\n         */",
             "meta": {
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 22,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -94,16 +94,16 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1680,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1815,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
             "comment": "/**\n         * @member {Boolean} useActiveTabIndicator_=true\n         */",
             "meta": {
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 26,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -118,16 +118,16 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1681,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1816,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
             "comment": "/**\n         * @member {Object} _vdom\n         */",
             "meta": {
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 30,
                 "columnno": 8,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {}
             },
             "kind": "member",
@@ -141,23 +141,23 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1682,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1817,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
             "comment": "/**\n     * Triggered after the useActiveTabIndicator config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    1279,
-                    1377
+                    1299,
+                    1397
                 ],
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 50,
                 "columnno": 4,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100054496",
-                    "name": "HeaderButton#afterSetUseActiveTabIndicator",
+                    "id": "astnode100057950",
+                    "name": "Button#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
                         "value",
@@ -189,29 +189,29 @@
             ],
             "access": "private",
             "name": "afterSetUseActiveTabIndicator",
-            "longname": "HeaderButton#afterSetUseActiveTabIndicator",
+            "longname": "Button#afterSetUseActiveTabIndicator",
             "kind": "function",
-            "memberof": "HeaderButton",
+            "memberof": "Button",
             "scope": "instance",
-            "$longname": "HeaderButton#afterSetUseActiveTabIndicator",
+            "$longname": "Button#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1683,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1818,
+            "neoClassName": "Neo.tab.header.Button"
         },
         {
             "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    1445,
-                    1653
+                    1465,
+                    1673
                 ],
-                "filename": "HeaderButton.mjs",
+                "filename": "Button.mjs",
                 "lineno": 58,
                 "columnno": 4,
-                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab",
+                "path": "/Users/Shared/github/covid19/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100054507",
-                    "name": "HeaderButton#updateUseActiveTabIndicator",
+                    "id": "astnode100057961",
+                    "name": "Button#updateUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
                         "silent"
@@ -234,14 +234,14 @@
                 }
             ],
             "name": "updateUseActiveTabIndicator",
-            "longname": "HeaderButton#updateUseActiveTabIndicator",
+            "longname": "Button#updateUseActiveTabIndicator",
             "kind": "function",
-            "memberof": "HeaderButton",
+            "memberof": "Button",
             "scope": "instance",
-            "$longname": "HeaderButton#updateUseActiveTabIndicator",
+            "$longname": "Button#updateUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1684,
-            "neoClassName": "Neo.tab.HeaderButton"
+            "id": 1819,
+            "neoClassName": "Neo.tab.header.Button"
         }
     ]
 }

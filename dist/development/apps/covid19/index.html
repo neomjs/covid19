@@ -10,12 +10,14 @@
         Neo = self.Neo || {}; Neo.config = Neo.config || {};
 
         Object.assign(Neo.config, {
-            appPath       : '/apps/covid19/app.js',
-            basePath      : '../../../../',
-            environment   : 'development',
-            themes        : ['neo-theme-light', 'neo-theme-dark'],
-            workerBasePath: '../../'
+            appPath         : '/apps/covid19/app.js',
+            basePath        : '../../../../',
+            environment     : 'development',
+            mainThreadAddons: ['Stylesheet'],
+            themes          : ['neo-theme-dark'],
+            workerBasePath  : '../../'
         });
     </script>
-    <script type="text/javascript" src="../../main.js"></script></body>
+    <script src="../../main.js"></script>
+    </body>
 </html>

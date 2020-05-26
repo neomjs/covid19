@@ -13,16 +13,17 @@
         }
     },
     "apps": {
-        "Docs": {
-            "indexPath": "node_modules/neo.mjs/docs/index.ejs",
-            "input": "buildScripts/entrypoints/Docs.mjs",
-            "output": "/docs/",
-            "title": "Neo Docs"
-        },
         "covid19": {
             "input": "buildScripts/entrypoints/covid19.mjs",
             "output": "/apps/covid19/",
+            "themes": "'neo-theme-dark'",
             "title": "covid19"
+        },
+        "Docs": {
+            "input": "buildScripts/entrypoints/Docs.mjs",
+            "mainThreadAddons": "'GoogleAnalytics', 'HighlightJS', 'Stylesheet'",
+            "output": "/docs/",
+            "title": "Neo Docs"
         }
     }
 }
