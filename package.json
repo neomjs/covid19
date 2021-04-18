@@ -1,6 +1,6 @@
 {
     "name": "covid19-gallery",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "description": "3d Gallery App displaying numbers by country about COVID-19",
     "repository": {
         "type": "git",
