@@ -1,8 +1,8 @@
-import CountryStore from '../store/Countries.mjs';
-import Gallery      from '../../../node_modules/neo.mjs/src/component/Gallery.mjs';
+import CountryStore from '../../store/Countries.mjs';
+import Gallery      from '../../../../node_modules/neo.mjs/src/component/Gallery.mjs';
 
 /**
- * @class Covid19.view.CountryGallery
+ * @class Covid.view.country.Gallery
  * @extends Neo.component.Gallery
  */
 class CountryGallery extends Gallery {
@@ -18,14 +18,14 @@ class CountryGallery extends Gallery {
 
     static getConfig() {return {
         /**
-         * @member {String} className='Covid19.view.CountryGallery'
+         * @member {String} className='Covid.view.country.Gallery'
          * @private
          */
-        className: 'Covid19.view.CountryGallery',
+        className: 'Covid.view.country.Gallery',
         /**
-         * @member {String[]} cls=['neo-country-gallery', 'neo-gallery', 'page', 'view']
+         * @member {String[]} cls=['covid-country-gallery','neo-gallery','page','view']
          */
-        cls: ['neo-country-gallery', 'neo-gallery', 'page', 'view'],
+        cls: ['covid-country-gallery', 'neo-gallery', 'page', 'view'],
         /**
          * The image height of the gallery
          * @member {Number} imageHeight=240
@@ -203,16 +203,6 @@ class CountryGallery extends Gallery {
         let imageName = name.toLowerCase().replace(CountryGallery.flagRegEx, '-');
 
         imageName = map[imageName] || imageName;
-
-        if (Neo.config.isGitHubPages) {
-            let path = '../../../../resources/images/flaticon/country_flags/png/' + imageName + '.png';
-
-            if (!Neo.config.isExperimental) {
-                path = '../../' + path;
-            }
-
-            return path;
-        }
 
         return 'https://raw.githubusercontent.com/neomjs/pages/master/resources/images/flaticon/country_flags/png/' + imageName + '.png';
     }

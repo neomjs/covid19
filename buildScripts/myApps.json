@@ -13,17 +13,17 @@
         }
     },
     "apps": {
+        "Covid": {
+            "input": "./apps/covid/app.mjs",
+            "output": "/apps/covid/",
+            "themes": "'neo-theme-dark'",
+            "title": "COVID19 Gallery"
+        },
         "Docs": {
             "input": "./docs/app.mjs",
             "mainThreadAddons": "'DragDrop', 'HighlightJS', 'Stylesheet'",
             "output": "/docs/",
             "title": "Neo Docs"
-        },
-        "covid19": {
-            "input": "./apps/covid19/app.mjs",
-            "output": "/apps/covid19/",
-            "themes": "'neo-theme-dark'",
-            "title": "covid19"
         }
     }
 }

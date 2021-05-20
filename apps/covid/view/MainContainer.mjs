@@ -1,20 +1,20 @@
-import CountryGallery          from './CountryGallery.mjs';
+import CountryGallery          from './country/Gallery.mjs';
 import {default as Panel}      from '../../../node_modules/neo.mjs/src/container/Panel.mjs';
 import {default as RangeField} from '../../../node_modules/neo.mjs/src/form/field/Range.mjs';
 import Viewport                from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
 /**
- * @class Covid19.view.MainContainer
+ * @class Covid.view.MainContainer
  * @extends Neo.container.Viewport
  */
 class MainContainer extends Viewport {
     static getConfig() {return {
-        className: 'Covid19.view.MainContainer',
+        className: 'Covid.view.MainContainer',
         ntype    : 'main-container',
 
         autoMount: true,
         /**
-         * @member {String[]} cls=['neo-gallery-maincontainer', 'neo-viewport']
+         * @member {String[]} cls=['neo-gallery-maincontainer','neo-viewport']
          */
         cls: ['neo-gallery-maincontainer', 'neo-viewport'],
         /**

@@ -1,12 +1,12 @@
 import Model  from '../../../node_modules/neo.mjs/src/data/Model.mjs';
 
 /**
- * @class Covid19.model.Country
+ * @class Covid.model.Country
  * @extends Neo.data.Model
  */
 class Country extends Model {
     static getConfig() {return {
-        className: 'Covid19.model.Country',
+        className: 'Covid.model.Country',
 
         fields: [{
             name: 'cases',
