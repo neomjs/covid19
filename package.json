@@ -1,6 +1,6 @@
 {
     "name": "covid19-gallery",
-    "version": "1.0.22",
+    "version": "1.0.23",
     "description": "3d Gallery App displaying numbers by country about COVID-19",
     "repository": {
         "type": "git",
@@ -33,7 +33,7 @@
     },
     "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
-        "neo.mjs": "^2.1.0"
+        "neo.mjs": "^2.1.5"
     },
     "funding": {
         "type": "GitHub Sponsors",
