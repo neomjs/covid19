@@ -6,18 +6,6 @@
     <title>COVID19 Gallery</title>
 </head>
 <body>
-    <script>
-        Neo = self.Neo || {}; Neo.config = Neo.config || {};
-
-        Object.assign(Neo.config, {
-            appPath       : '../../apps/covid/app.mjs',
-            basePath      : '../../',
-            environment   : 'development',
-            themes        : ['neo-theme-dark'],
-            workerBasePath: '../../node_modules/neo.mjs/src/worker/'
-        });
-    </script>
-
-    <script src="../../node_modules/neo.mjs/src/Main.mjs" type="module"></script>
+    <script src="../../src/MicroLoader.mjs" type="module"></script>
 </body>
 </html>
